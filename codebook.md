@@ -1,7 +1,9 @@
 ## Codebook
 
 subject.id - Identifies the subject, integer, range: 1 to 30
+
 activity.label - Identifies the activity, categorical variable, 6 levels (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS)
+
 type - Identifies the type, categorical variable, 2 levels (train, test)
 
 Other variables has a standard structure. They are all numerical variables and they are the mean of variables by subject and activity type of the source data.
